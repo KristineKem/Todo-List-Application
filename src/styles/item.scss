@@ -1,0 +1,45 @@
+@import './default.scss';
+
+.item {
+    display: flex;
+    justify-content:space-between;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+    border-radius: 10px;  
+    border: steps(0.5) solid black;
+    margin-block: steps(1);
+    padding: steps(1);
+    
+
+}
+
+.item_content {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: steps(5);
+    font-weight: 700;
+    margin: steps(1);
+    
+}
+
+.done {
+    color: black;
+    font-size: steps(2);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: stesp(5);
+    font-weight: 700;
+    text-align: center;
+    margin-left: steps(2);
+}
+
+*{
+    box-sizing: border-box;
+  }

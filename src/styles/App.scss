@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import './default.scss';
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  margin: steps(5);
+  padding: steps(5);
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: steps(5);
+
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: steps(12);
+  font-weight: 700;
+  text-align: center;
+  margin: steps(5);
+  color: #fc9c60f4;
+  font-style: italic;
+  
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: steps(2);
+  padding: steps(2);
+  background-color: #fc9c60f4;
+  border: 1px solid black;
+  border-radius: steps(5);
+}
+
+.add_todo {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: steps(5);
+  font-weight: 700;
+  margin-bottom: steps(2);
+}
+
+.todo_input {
+  font-family: 'Open Sans', sans-serif;
+  background-color: bisque;
+  border-radius: steps(2);;  
+
+}
+
+.add_button {
+  background-color: #fc9c60f4;
+  border-radius: steps(5);
+  padding: steps(1);
+  margin: steps(2);
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #f35f04f4;
+    transform: scale(1.1);
+  }
+ 
+}
+
+.ul {
+  display: block;
+  justify-content: center;
+  margin: steps(5);
+  text-align: center;
+}  
+
+* {
+  box-sizing: border-box;
+}

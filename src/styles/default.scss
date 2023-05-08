@@ -1,0 +1,21 @@
+$color_orange: #fc9c60f4;
+$color_lightblue: aqua;
+$color_darkorange: #f35f04f4;
+$color_black: black;
+
+@function steps($number)
+{
+    @return $number * 4px;
+}
+
+$phone: 600px;
+$tablet: 900px;
+$desktop: 1200px;
+
+@mixin for-at-least ($min-width: 600px, $max-width: 900px)
+{
+    @media only screen and (min-width: $min-width) and (max-width: $max-width)
+    {
+        @content;
+    }
+}
